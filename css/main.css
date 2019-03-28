@@ -3,6 +3,13 @@ body {
   margin: 0;
   background: #f2f6e9;
 }
+/*--- Logo ---*/
+
+.img-tagline {
+  width: 100 px;
+  height: auto;
+}
+
 /*--- navigation bar ---*/
 .navbar {
   background: white;
