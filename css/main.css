@@ -5,11 +5,6 @@ body {
 }
 /*--- Logo ---*/
 
-.img-tagline {
-  width: 100 px;
-  height: auto;
-}
-
 /*--- navigation bar ---*/
 .navbar {
   background: white;
@@ -115,6 +110,32 @@ h2 {
   color: #666;
   padding: 40px 0;
 }
+
+#more-details {
+  font-size: small;
+}
+.ready-to-start {
+  background-color: #4aa0fd;
+  height: 100%;
+  width: 100%;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  padding: 50px;
+}
+.ready-to-start button {
+  width: 50%;
+  margin: 0 auto;
+  color: white;
+  background-color: #333;
+}
+
+.ready-to-start button:hover {
+  background-color: white;
+  color: black;
+}
+
 @media (max-width: 575.98px) {
   .description {
     left: 0;
