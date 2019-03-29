@@ -48,6 +48,8 @@ body {
 .tag-line {
   color: #4aa0fd;
   text-align: center;
+  position: relative;
+  bottom: 30px;
 }
 
 .description {
