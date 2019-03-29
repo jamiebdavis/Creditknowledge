@@ -2,14 +2,17 @@ body {
   padding: 0;
   margin: 0;
   background: #f2f6e9;
+  font-family: "Open Sans", sans-serif;
 }
-
-/*--- Logo ---*/
 
 /*--- navigation bar ---*/
 
 .navbar {
   background: white;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  opacity: 0.9;
 }
 
 .nav-link,
@@ -22,16 +25,12 @@ body {
   margin-right: 1em !important;
 }
 
-.nav-link:hover {
-  color: #000;
-}
-
 .navbar-collapse {
   justify-content: flex-end;
 }
 
 .header {
-  background-image: url("../Images/wallhaven-748400.jpg");
+  background-image: url("../Images/family.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -44,6 +43,11 @@ body {
   left: 0;
   top: 0;
   background: rgba(0, 0, 0, 0.6);
+}
+
+.tag-line {
+  color: #4aa0fd;
+  text-align: center;
 }
 
 .description {
@@ -139,7 +143,7 @@ h2 {
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
-  padding: 50px;
+  padding: 100px;
 }
 
 .ready-to-start button {
